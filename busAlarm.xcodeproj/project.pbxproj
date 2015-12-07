@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		477386041BFCAB4600EE7423 /* JazzCat.caf in Resources */ = {isa = PBXBuildFile; fileRef = 477386031BFCAB4600EE7423 /* JazzCat.caf */; };
+		4791B1381BF6EA0A00432083 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4791B1371BF6EA0A00432083 /* UIKit.framework */; };
+		4791B13B1BF6EB9100432083 /* LocationLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 4791B13A1BF6EB9100432083 /* LocationLib.m */; };
+		4791B1411BF6FAF800432083 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4791B1401BF6FAF800432083 /* MainVC.m */; };
+		4791B1441BF7209E00432083 /* TutorialVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4791B1431BF7209E00432083 /* TutorialVC.m */; };
+		4791B1471BF7318100432083 /* LocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4791B1461BF7318100432083 /* LocationModel.m */; };
+		47B577261BF644C500190696 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B577251BF644C500190696 /* main.m */; };
+		47B577291BF644C500190696 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B577281BF644C500190696 /* AppDelegate.m */; };
+		47B5772F1BF644C500190696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B5772D1BF644C500190696 /* Main.storyboard */; };
+		47B577311BF644C500190696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B577301BF644C500190696 /* Assets.xcassets */; };
+		47B577341BF644C500190696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B577321BF644C500190696 /* LaunchScreen.storyboard */; };
+		47B5773F1BF644C500190696 /* busAlarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B5773E1BF644C500190696 /* busAlarmTests.m */; };
+		47B5774A1BF644C500190696 /* busAlarmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B577491BF644C500190696 /* busAlarmUITests.m */; };
+		47B577691BF645E000190696 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B577681BF645E000190696 /* CoreLocation.framework */; };
+		47DD0ECD1C0601A6002B07B2 /* wakeUp.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 47DD0ECC1C0601A6002B07B2 /* wakeUp.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47B5773B1BF644C500190696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47B577191BF644C500190696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47B577201BF644C500190696;
+			remoteInfo = busAlarm;
+		};
+		47B577461BF644C500190696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47B577191BF644C500190696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47B577201BF644C500190696;
+			remoteInfo = busAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		477386031BFCAB4600EE7423 /* JazzCat.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = JazzCat.caf; sourceTree = "<group>"; };
+		4791B1371BF6EA0A00432083 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4791B1391BF6EB9100432083 /* LocationLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationLib.h; sourceTree = "<group>"; };
+		4791B13A1BF6EB9100432083 /* LocationLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationLib.m; sourceTree = "<group>"; };
+		4791B13F1BF6FAF800432083 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		4791B1401BF6FAF800432083 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		4791B1421BF7209E00432083 /* TutorialVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialVC.h; sourceTree = "<group>"; };
+		4791B1431BF7209E00432083 /* TutorialVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialVC.m; sourceTree = "<group>"; };
+		4791B1451BF7318100432083 /* LocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationModel.h; sourceTree = "<group>"; };
+		4791B1461BF7318100432083 /* LocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationModel.m; sourceTree = "<group>"; };
+		47B577211BF644C500190696 /* busAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = busAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B577251BF644C500190696 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47B577271BF644C500190696 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47B577281BF644C500190696 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47B5772E1BF644C500190696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47B577301BF644C500190696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47B577331BF644C500190696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47B577351BF644C500190696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47B5773A1BF644C500190696 /* busAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = busAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B5773E1BF644C500190696 /* busAlarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = busAlarmTests.m; sourceTree = "<group>"; };
+		47B577401BF644C500190696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47B577451BF644C500190696 /* busAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = busAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B577491BF644C500190696 /* busAlarmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = busAlarmUITests.m; sourceTree = "<group>"; };
+		47B5774B1BF644C500190696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47B5775F1BF6457D00190696 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		47B577681BF645E000190696 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		47DD0ECC1C0601A6002B07B2 /* wakeUp.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = wakeUp.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47B5771E1BF644C500190696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4791B1381BF6EA0A00432083 /* UIKit.framework in Frameworks */,
+				47B577691BF645E000190696 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B577371BF644C500190696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B577421BF644C500190696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47B577181BF644C500190696 = {
+			isa = PBXGroup;
+			children = (
+				4791B1371BF6EA0A00432083 /* UIKit.framework */,
+				47B577681BF645E000190696 /* CoreLocation.framework */,
+				47B577231BF644C500190696 /* busAlarm */,
+				47B5773D1BF644C500190696 /* busAlarmTests */,
+				47B577481BF644C500190696 /* busAlarmUITests */,
+				47B577221BF644C500190696 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47B577221BF644C500190696 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47B577211BF644C500190696 /* busAlarm.app */,
+				47B5773A1BF644C500190696 /* busAlarmTests.xctest */,
+				47B577451BF644C500190696 /* busAlarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47B577231BF644C500190696 /* busAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				47B577571BF6457D00190696 /* Resource */,
+				47B5775A1BF6457D00190696 /* Source */,
+				47B577271BF644C500190696 /* AppDelegate.h */,
+				47B577281BF644C500190696 /* AppDelegate.m */,
+				47B5772D1BF644C500190696 /* Main.storyboard */,
+				47B577301BF644C500190696 /* Assets.xcassets */,
+				47B577321BF644C500190696 /* LaunchScreen.storyboard */,
+				47B577351BF644C500190696 /* Info.plist */,
+				47B577241BF644C500190696 /* Supporting Files */,
+			);
+			path = busAlarm;
+			sourceTree = "<group>";
+		};
+		47B577241BF644C500190696 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47B577251BF644C500190696 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47B5773D1BF644C500190696 /* busAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				47B5773E1BF644C500190696 /* busAlarmTests.m */,
+				47B577401BF644C500190696 /* Info.plist */,
+			);
+			path = busAlarmTests;
+			sourceTree = "<group>";
+		};
+		47B577481BF644C500190696 /* busAlarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47B577491BF644C500190696 /* busAlarmUITests.m */,
+				47B5774B1BF644C500190696 /* Info.plist */,
+			);
+			path = busAlarmUITests;
+			sourceTree = "<group>";
+		};
+		47B577571BF6457D00190696 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				47B577581BF6457D00190696 /* Images */,
+				47B577591BF6457D00190696 /* Sounds */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		47B577581BF6457D00190696 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		47B577591BF6457D00190696 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				47DD0ECC1C0601A6002B07B2 /* wakeUp.m4a */,
+				477386031BFCAB4600EE7423 /* JazzCat.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		47B5775A1BF6457D00190696 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				47B5775B1BF6457D00190696 /* Controller */,
+				47B5775E1BF6457D00190696 /* Global */,
+				47B577601BF6457D00190696 /* Helper */,
+				47B577611BF6457D00190696 /* Libs */,
+				47B577621BF6457D00190696 /* Model */,
+				47B577651BF6457D00190696 /* View */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		47B5775B1BF6457D00190696 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4791B13F1BF6FAF800432083 /* MainVC.h */,
+				4791B1401BF6FAF800432083 /* MainVC.m */,
+				4791B1421BF7209E00432083 /* TutorialVC.h */,
+				4791B1431BF7209E00432083 /* TutorialVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		47B5775E1BF6457D00190696 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				47B5775F1BF6457D00190696 /* Constants.h */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		47B577601BF6457D00190696 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4791B1391BF6EB9100432083 /* LocationLib.h */,
+				4791B13A1BF6EB9100432083 /* LocationLib.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		47B577611BF6457D00190696 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		47B577621BF6457D00190696 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4791B1451BF7318100432083 /* LocationModel.h */,
+				4791B1461BF7318100432083 /* LocationModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47B577651BF6457D00190696 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47B577201BF644C500190696 /* busAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47B5774E1BF644C500190696 /* Build configuration list for PBXNativeTarget "busAlarm" */;
+			buildPhases = (
+				47B5771D1BF644C500190696 /* Sources */,
+				47B5771E1BF644C500190696 /* Frameworks */,
+				47B5771F1BF644C500190696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = busAlarm;
+			productName = busAlarm;
+			productReference = 47B577211BF644C500190696 /* busAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47B577391BF644C500190696 /* busAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47B577511BF644C500190696 /* Build configuration list for PBXNativeTarget "busAlarmTests" */;
+			buildPhases = (
+				47B577361BF644C500190696 /* Sources */,
+				47B577371BF644C500190696 /* Frameworks */,
+				47B577381BF644C500190696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47B5773C1BF644C500190696 /* PBXTargetDependency */,
+			);
+			name = busAlarmTests;
+			productName = busAlarmTests;
+			productReference = 47B5773A1BF644C500190696 /* busAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47B577441BF644C500190696 /* busAlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47B577541BF644C500190696 /* Build configuration list for PBXNativeTarget "busAlarmUITests" */;
+			buildPhases = (
+				47B577411BF644C500190696 /* Sources */,
+				47B577421BF644C500190696 /* Frameworks */,
+				47B577431BF644C500190696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47B577471BF644C500190696 /* PBXTargetDependency */,
+			);
+			name = busAlarmUITests;
+			productName = busAlarmUITests;
+			productReference = 47B577451BF644C500190696 /* busAlarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47B577191BF644C500190696 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = PhuongThuy;
+				TargetAttributes = {
+					47B577201BF644C500190696 = {
+						CreatedOnToolsVersion = 7.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					47B577391BF644C500190696 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 47B577201BF644C500190696;
+					};
+					47B577441BF644C500190696 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 47B577201BF644C500190696;
+					};
+				};
+			};
+			buildConfigurationList = 47B5771C1BF644C500190696 /* Build configuration list for PBXProject "busAlarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47B577181BF644C500190696;
+			productRefGroup = 47B577221BF644C500190696 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47B577201BF644C500190696 /* busAlarm */,
+				47B577391BF644C500190696 /* busAlarmTests */,
+				47B577441BF644C500190696 /* busAlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47B5771F1BF644C500190696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B577341BF644C500190696 /* LaunchScreen.storyboard in Resources */,
+				47B577311BF644C500190696 /* Assets.xcassets in Resources */,
+				477386041BFCAB4600EE7423 /* JazzCat.caf in Resources */,
+				47DD0ECD1C0601A6002B07B2 /* wakeUp.m4a in Resources */,
+				47B5772F1BF644C500190696 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B577381BF644C500190696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B577431BF644C500190696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47B5771D1BF644C500190696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4791B1441BF7209E00432083 /* TutorialVC.m in Sources */,
+				4791B13B1BF6EB9100432083 /* LocationLib.m in Sources */,
+				4791B1471BF7318100432083 /* LocationModel.m in Sources */,
+				47B577291BF644C500190696 /* AppDelegate.m in Sources */,
+				4791B1411BF6FAF800432083 /* MainVC.m in Sources */,
+				47B577261BF644C500190696 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B577361BF644C500190696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B5773F1BF644C500190696 /* busAlarmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B577411BF644C500190696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B5774A1BF644C500190696 /* busAlarmUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47B5773C1BF644C500190696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47B577201BF644C500190696 /* busAlarm */;
+			targetProxy = 47B5773B1BF644C500190696 /* PBXContainerItemProxy */;
+		};
+		47B577471BF644C500190696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47B577201BF644C500190696 /* busAlarm */;
+			targetProxy = 47B577461BF644C500190696 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47B5772D1BF644C500190696 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47B5772E1BF644C500190696 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47B577321BF644C500190696 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47B577331BF644C500190696 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47B5774C1BF644C500190696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hien Nguyen (QCE34WPEAF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hien Nguyen (QCE34WPEAF)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "fe3e79ba-4608-4164-b910-df414272588f";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47B5774D1BF644C500190696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hien Nguyen (QCE34WPEAF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hien Nguyen (QCE34WPEAF)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "fe3e79ba-4608-4164-b910-df414272588f";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47B5774F1BF644C500190696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hien Nguyen (QCE34WPEAF)";
+				INFOPLIST_FILE = busAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banana.busAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fe3e79ba-4608-4164-b910-df414272588f";
+			};
+			name = Debug;
+		};
+		47B577501BF644C500190696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hien Nguyen (QCE34WPEAF)";
+				INFOPLIST_FILE = busAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banana.busAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fe3e79ba-4608-4164-b910-df414272588f";
+			};
+			name = Release;
+		};
+		47B577521BF644C500190696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = busAlarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banana.busAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/busAlarm.app/busAlarm";
+			};
+			name = Debug;
+		};
+		47B577531BF644C500190696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = busAlarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banana.busAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/busAlarm.app/busAlarm";
+			};
+			name = Release;
+		};
+		47B577551BF644C500190696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = busAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banana.busAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = busAlarm;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		47B577561BF644C500190696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = busAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banana.busAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = busAlarm;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47B5771C1BF644C500190696 /* Build configuration list for PBXProject "busAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B5774C1BF644C500190696 /* Debug */,
+				47B5774D1BF644C500190696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47B5774E1BF644C500190696 /* Build configuration list for PBXNativeTarget "busAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B5774F1BF644C500190696 /* Debug */,
+				47B577501BF644C500190696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47B577511BF644C500190696 /* Build configuration list for PBXNativeTarget "busAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B577521BF644C500190696 /* Debug */,
+				47B577531BF644C500190696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47B577541BF644C500190696 /* Build configuration list for PBXNativeTarget "busAlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B577551BF644C500190696 /* Debug */,
+				47B577561BF644C500190696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47B577191BF644C500190696 /* Project object */;
+}
